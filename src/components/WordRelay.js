@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const WorldRelay = () => {
+const WordRelay = () => {
     const [word, setWord] = useState('탱탱');
     const [value, setValue] = useState('');
     const [result, setResult] = useState('');
@@ -36,4 +36,4 @@ const WorldRelay = () => {
     );
 };
 
-export default WorldRelay;
+export default WordRelay;
