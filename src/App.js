@@ -5,6 +5,7 @@ import WordRelayPage from 'pages/wordRelay/WordRelayPage';
 import MultiplicationPage from 'pages/multiplication/MultiplicationPage';
 import NumberBaseballPage from 'pages/numberBaseball/NumberBaseballPage';
 import ResponseCheckPage from 'pages/responseCheck/ResponseCheckPage';
+import RockPaperScissorsPage from 'pages/rockPaperScissors/RockPaperScissorsPage';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Route path="/wordRelay" component={WordRelayPage} />
             <Route path="/numberBaseball" component={NumberBaseballPage} />
             <Route path="/responseCheck" component={ResponseCheckPage} />
+            <Route path="/rockPaperScissors" component={RockPaperScissorsPage} />
         </BrowserRouter>
     );
 };

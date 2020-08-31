@@ -17,6 +17,7 @@ const Home = () => {
                 <PageLink title={'끝말잇기'} link={'/wordRelay'} />
                 <PageLink title={'숫자야구'} link={'/numberBaseball'} />
                 <PageLink title={'성능체크'} link={'/responseCheck'} />
+                <PageLink title={'가위바위보'} link={'/rockPaperScissors'} />
             </ul>
         </div>
     );
