@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import WordRelayPage from './pages/WordRelayPage';
-import Multiplication from './pages/Multiplication';
-import NumberBaseballPage from './pages/NumberBaseballPage';
+import WordRelayPage from './pages/wordRelay/WordRelayPage';
+import MultiplicationPage from './pages/multiplication/MultiplicationPage';
+import NumberBaseballPage from './pages/numberBaseball/NumberBaseballPage';
 
 const App = () => {
     return (
         <BrowserRouter>
             <Route path="/" exact component={Home} />
-            <Route path="/gugudan" component={Multiplication} />
+            <Route path="/gugudan" component={MultiplicationPage} />
             <Route path="/wordRelay" component={WordRelayPage} />
             <Route path="/numberBaseball" component={NumberBaseballPage} />
         </BrowserRouter>

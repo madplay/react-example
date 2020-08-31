@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { parseInt as _parseInt } from 'lodash';
 
-const Multiplication = () => {
-    // 초기값을 랜덤으로 세팅
+const MultiplicationContainer = () => {
     const [firstValue, setFirstValue] = useState(Math.ceil(Math.random() * 9));
     const [secondValue, setSecondValue] = useState(Math.ceil(Math.random() * 9));
     const [value, setValue] = useState('');
@@ -37,4 +36,4 @@ const Multiplication = () => {
     );
 };
 
-export default Multiplication;
+export default MultiplicationContainer;

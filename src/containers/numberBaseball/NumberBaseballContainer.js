@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Try from './Try';
+import Try from 'components/numberBaseball/Try';
 
 const getNumbers = () => {
     const candidate = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -11,7 +11,7 @@ const getNumbers = () => {
     return array;
 };
 
-const NumberBaseball = () => {
+const NumberBaseballContainer = () => {
     const [result, setResult] = useState('');
     const [value, setValue] = useState('');
     const [answer, setAnswer] = useState(getNumbers());
@@ -73,4 +73,4 @@ const NumberBaseball = () => {
     );
 };
 
-export default NumberBaseball;
+export default NumberBaseballContainer;
